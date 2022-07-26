@@ -34,13 +34,17 @@
                   <input
                     type="checkbox"
                     name="read"
-                    id="readLibraryCheckbox"
+                    id="readCheckbox"
                     checked
                     disabled
                   />
                 </td>
               </tr>
             </tbody>
+            <label> Title: <input type="text" id="titleInput" name="title" required/></label>
+            <label> Author: <input type="text" id="authorInput" name="Author" required/></label>
+            <label> Read: <input type="checkbox" name="read" id="readCheckbox" required/></label>
+            <input type="submit" id="addButton" value="Add Book">
           </table>
         </div>
     </main>
